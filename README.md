@@ -1,31 +1,47 @@
-E-Commerce Customer Lifetime Value & Revenue Optimization Dashboard
+# E-Commerce Customer Lifetime Value & Revenue Optimization Dashboard
 
-Project Overview
+## Project Overview
 
-An interactive Power BI dashboard built to analyze e-commerce sales performance, profitability, customer behavior, and revenue optimization opportunities.
+An interactive Power BI dashboard built to analyze e-commerce sales, profitability, customer behavior, and revenue optimization opportunities using the Global Superstore dataset.
 
-Key Features
+The project focuses on understanding business performance, identifying valuable customers, analyzing sales trends, and generating actionable insights from historical sales data.
 
-- KPI Cards: Total Sales, Total Profit, Total Customers, and Average Discount.
-- Sales Analysis: Category-wise sales and profit performance.
-- Customer Analysis: Top customers by sales and customer details.
-- Trend Analysis: Monthly sales and profit trends.
-- Profitability Analysis: Sub-category, city, and state performance.
-- Discount Analysis: Relationship between discounts and profit.
-- Customer Segmentation: RFM-based customer segments.
-- Interactive Filters: Year, Quarter, and Month.
+## Key Features
 
-Tools Used
+- **KPI Analysis:** Total Sales, Total Profit, Customer Lifetime Value (CLV), and Average Order Value (AOV).
+- **Sales & Profit Analysis:** Category-wise sales and profit performance.
+- **Time-Series Analysis:** Monthly sales and profit trends.
+- **Customer Analysis:** Top 10 customers ranked by sales.
+- **Customer Segmentation:** RFM-based analysis to identify Champions, Loyal Customers, New Customers, At-Risk Customers, and Regular Customers.
+- **Discount Analysis:** Relationship between discounts and profitability.
+- **Geographic Analysis:** Sales performance across states and regions.
+- **Product Analysis:** Top-performing sub-categories by profit.
+- **Interactive Filters:** Year, quarter, and month slicers for exploring business performance.
+
+## Tools & Technologies
 
 - Microsoft Power BI
-- DAX
+- DAX (Data Analysis Expressions)
 - Data Visualization
 - Customer Segmentation (RFM Analysis)
+- Global Superstore Dataset
 
-Project File
+## Dashboard Preview
 
-Download the ".pbix" file from this repository and open it using Power BI Desktop.
+![E-Commerce Customer Lifetime Value Dashboard](Dashboard(CLV).png)
 
-Author
+## How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open the file using Microsoft Power BI Desktop.
+3. Use the available filters and interactive visualizations to explore sales, profit, and customer insights.
+
+## Project Files
+
+- `ecommerce_ltv_optimization.pbix` — Interactive Power BI dashboard.
+- `Dashboard(CLV).png` — Dashboard preview image.
+- `README.md` — Project documentation.
+
+## Author
 
 Kunal Singh
